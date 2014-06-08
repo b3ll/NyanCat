@@ -12,7 +12,6 @@
 		0B1AD975194423DB0078E7B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD974194423DB0078E7B5 /* ViewController.m */; };
 		0B1AD978194423DB0078E7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD976194423DB0078E7B5 /* Main.storyboard */; };
 		0B1AD97A194423DB0078E7B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD979194423DB0078E7B5 /* Images.xcassets */; };
-		0B1AD986194423DB0078E7B5 /* NyanCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD985194423DB0078E7B5 /* NyanCatTests.m */; };
 		0B1AD996194423E40078E7B5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1AD995194423E40078E7B5 /* NotificationCenter.framework */; };
 		0B1AD99C194423E40078E7B5 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD99B194423E40078E7B5 /* TodayViewController.m */; };
 		0B1AD99E194423E40078E7B5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD99D194423E40078E7B5 /* MainInterface.storyboard */; };
@@ -44,13 +43,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B1AD980194423DB0078E7B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B1AD961194423DB0078E7B5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B1AD968194423DB0078E7B5;
-			remoteInfo = NyanCat;
-		};
 		0B1AD99F194423E40078E7B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0B1AD961194423DB0078E7B5 /* Project object */;
@@ -91,9 +83,6 @@
 		0B1AD974194423DB0078E7B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0B1AD977194423DB0078E7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B1AD979194423DB0078E7B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NyanCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B1AD984194423DB0078E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B1AD985194423DB0078E7B5 /* NyanCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NyanCatTests.m; sourceTree = "<group>"; };
 		0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ca.adambell.NyanCat.Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1AD995194423E40078E7B5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		0B1AD999194423E40078E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,13 +123,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B1AD97C194423DB0078E7B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0B1AD990194423E40078E7B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				0B1AD96B194423DB0078E7B5 /* NyanCat */,
-				0B1AD982194423DB0078E7B5 /* NyanCatTests */,
 				0B1AD997194423E40078E7B5 /* Today */,
 				0B1AD994194423E40078E7B5 /* Frameworks */,
 				0B1AD96A194423DB0078E7B5 /* Products */,
@@ -167,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				0B1AD969194423DB0078E7B5 /* NyanCat.app */,
-				0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */,
 				0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */,
 			);
 			name = Products;
@@ -192,23 +172,6 @@
 			children = (
 				0B1AD96D194423DB0078E7B5 /* Info.plist */,
 				0B1AD96E194423DB0078E7B5 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0B1AD982194423DB0078E7B5 /* NyanCatTests */ = {
-			isa = PBXGroup;
-			children = (
-				0B1AD985194423DB0078E7B5 /* NyanCatTests.m */,
-				0B1AD983194423DB0078E7B5 /* Supporting Files */,
-			);
-			path = NyanCatTests;
-			sourceTree = "<group>";
-		};
-		0B1AD983194423DB0078E7B5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0B1AD984194423DB0078E7B5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -287,24 +250,6 @@
 			productReference = 0B1AD969194423DB0078E7B5 /* NyanCat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B1AD97E194423DB0078E7B5 /* NyanCatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B1AD98C194423DB0078E7B5 /* Build configuration list for PBXNativeTarget "NyanCatTests" */;
-			buildPhases = (
-				0B1AD97B194423DB0078E7B5 /* Sources */,
-				0B1AD97C194423DB0078E7B5 /* Frameworks */,
-				0B1AD97D194423DB0078E7B5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B1AD981194423DB0078E7B5 /* PBXTargetDependency */,
-			);
-			name = NyanCatTests;
-			productName = NyanCatTests;
-			productReference = 0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		0B1AD992194423E40078E7B5 /* Today */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B1AD9A4194423E40078E7B5 /* Build configuration list for PBXNativeTarget "Today" */;
@@ -334,10 +279,6 @@
 					0B1AD968194423DB0078E7B5 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					0B1AD97E194423DB0078E7B5 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 0B1AD968194423DB0078E7B5;
-					};
 					0B1AD992194423E40078E7B5 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -357,7 +298,6 @@
 			projectRoot = "";
 			targets = (
 				0B1AD968194423DB0078E7B5 /* NyanCat */,
-				0B1AD97E194423DB0078E7B5 /* NyanCatTests */,
 				0B1AD992194423E40078E7B5 /* Today */,
 			);
 		};
@@ -370,13 +310,6 @@
 			files = (
 				0B1AD978194423DB0078E7B5 /* Main.storyboard in Resources */,
 				0B1AD97A194423DB0078E7B5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1AD97D194423DB0078E7B5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,14 +358,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B1AD97B194423DB0078E7B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B1AD986194423DB0078E7B5 /* NyanCatTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0B1AD98F194423E40078E7B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,11 +369,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B1AD981194423DB0078E7B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B1AD968194423DB0078E7B5 /* NyanCat */;
-			targetProxy = 0B1AD980194423DB0078E7B5 /* PBXContainerItemProxy */;
-		};
 		0B1AD9A0194423E40078E7B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0B1AD992194423E40078E7B5 /* Today */;
@@ -573,42 +493,6 @@
 			};
 			name = Release;
 		};
-		0B1AD98D194423DB0078E7B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NyanCat.app/NyanCat";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NyanCatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		0B1AD98E194423DB0078E7B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NyanCat.app/NyanCat";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = NyanCatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 		0B1AD9A5194423E40078E7B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -654,14 +538,7 @@
 				0B1AD98B194423DB0078E7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		0B1AD98C194423DB0078E7B5 /* Build configuration list for PBXNativeTarget "NyanCatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B1AD98D194423DB0078E7B5 /* Debug */,
-				0B1AD98E194423DB0078E7B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B1AD9A4194423E40078E7B5 /* Build configuration list for PBXNativeTarget "Today" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +547,7 @@
 				0B1AD9A6194423E40078E7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
