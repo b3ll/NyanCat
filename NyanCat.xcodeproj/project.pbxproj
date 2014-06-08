@@ -13,6 +13,34 @@
 		0B1AD978194423DB0078E7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD976194423DB0078E7B5 /* Main.storyboard */; };
 		0B1AD97A194423DB0078E7B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD979194423DB0078E7B5 /* Images.xcassets */; };
 		0B1AD986194423DB0078E7B5 /* NyanCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD985194423DB0078E7B5 /* NyanCatTests.m */; };
+		0B1AD996194423E40078E7B5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1AD995194423E40078E7B5 /* NotificationCenter.framework */; };
+		0B1AD99C194423E40078E7B5 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD99B194423E40078E7B5 /* TodayViewController.m */; };
+		0B1AD99E194423E40078E7B5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD99D194423E40078E7B5 /* MainInterface.storyboard */; };
+		0B1AD9A1194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */; };
+		0B1AD9C0194424060078E7B5 /* Portrait-Nyan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9A8194424060078E7B5 /* Portrait-Nyan-1.png */; };
+		0B1AD9C1194424060078E7B5 /* Portrait-Nyan-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9A9194424060078E7B5 /* Portrait-Nyan-1@2x.png */; };
+		0B1AD9C2194424060078E7B5 /* Portrait-Nyan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AA194424060078E7B5 /* Portrait-Nyan-2.png */; };
+		0B1AD9C3194424060078E7B5 /* Portrait-Nyan-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AB194424060078E7B5 /* Portrait-Nyan-2@2x.png */; };
+		0B1AD9C4194424060078E7B5 /* Portrait-Nyan-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AC194424060078E7B5 /* Portrait-Nyan-3.png */; };
+		0B1AD9C5194424060078E7B5 /* Portrait-Nyan-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AD194424060078E7B5 /* Portrait-Nyan-3@2x.png */; };
+		0B1AD9C6194424060078E7B5 /* Portrait-Nyan-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AE194424060078E7B5 /* Portrait-Nyan-4.png */; };
+		0B1AD9C7194424060078E7B5 /* Portrait-Nyan-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9AF194424060078E7B5 /* Portrait-Nyan-4@2x.png */; };
+		0B1AD9C8194424060078E7B5 /* Portrait-Nyan-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B0194424060078E7B5 /* Portrait-Nyan-5.png */; };
+		0B1AD9C9194424060078E7B5 /* Portrait-Nyan-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B1194424060078E7B5 /* Portrait-Nyan-5@2x.png */; };
+		0B1AD9CA194424060078E7B5 /* Portrait-Nyan-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B2194424060078E7B5 /* Portrait-Nyan-6.png */; };
+		0B1AD9CB194424060078E7B5 /* Portrait-Nyan-6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B3194424060078E7B5 /* Portrait-Nyan-6@2x.png */; };
+		0B1AD9CC194424060078E7B5 /* Portrait-Nyan-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B4194424060078E7B5 /* Portrait-Nyan-7.png */; };
+		0B1AD9CD194424060078E7B5 /* Portrait-Nyan-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B5194424060078E7B5 /* Portrait-Nyan-7@2x.png */; };
+		0B1AD9CE194424060078E7B5 /* Portrait-Nyan-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B6194424060078E7B5 /* Portrait-Nyan-8.png */; };
+		0B1AD9CF194424060078E7B5 /* Portrait-Nyan-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B7194424060078E7B5 /* Portrait-Nyan-8@2x.png */; };
+		0B1AD9D0194424060078E7B5 /* Portrait-Nyan-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B8194424060078E7B5 /* Portrait-Nyan-9.png */; };
+		0B1AD9D1194424060078E7B5 /* Portrait-Nyan-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9B9194424060078E7B5 /* Portrait-Nyan-9@2x.png */; };
+		0B1AD9D2194424060078E7B5 /* Portrait-Nyan-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BA194424060078E7B5 /* Portrait-Nyan-10.png */; };
+		0B1AD9D3194424060078E7B5 /* Portrait-Nyan-10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BB194424060078E7B5 /* Portrait-Nyan-10@2x.png */; };
+		0B1AD9D4194424060078E7B5 /* Portrait-Nyan-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BC194424060078E7B5 /* Portrait-Nyan-11.png */; };
+		0B1AD9D5194424060078E7B5 /* Portrait-Nyan-11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BD194424060078E7B5 /* Portrait-Nyan-11@2x.png */; };
+		0B1AD9D6194424060078E7B5 /* Portrait-Nyan-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BE194424060078E7B5 /* Portrait-Nyan-12.png */; };
+		0B1AD9D7194424060078E7B5 /* Portrait-Nyan-12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1AD9BF194424060078E7B5 /* Portrait-Nyan-12@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +51,35 @@
 			remoteGlobalIDString = 0B1AD968194423DB0078E7B5;
 			remoteInfo = NyanCat;
 		};
+		0B1AD99F194423E40078E7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B1AD961194423DB0078E7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1AD992194423E40078E7B5;
+			remoteInfo = Today;
+		};
+		0B1AD9A2194423E40078E7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B1AD961194423DB0078E7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1AD992194423E40078E7B5;
+			remoteInfo = Today;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B1AD9A7194423E40078E7B5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B1AD9A1194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B1AD969194423DB0078E7B5 /* NyanCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +94,36 @@
 		0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NyanCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1AD984194423DB0078E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1AD985194423DB0078E7B5 /* NyanCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NyanCatTests.m; sourceTree = "<group>"; };
+		0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ca.adambell.NyanCat.Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1AD995194423E40078E7B5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0B1AD999194423E40078E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1AD99A194423E40078E7B5 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		0B1AD99B194423E40078E7B5 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		0B1AD99D194423E40078E7B5 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		0B1AD9A8194424060078E7B5 /* Portrait-Nyan-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-1.png"; sourceTree = "<group>"; };
+		0B1AD9A9194424060078E7B5 /* Portrait-Nyan-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-1@2x.png"; sourceTree = "<group>"; };
+		0B1AD9AA194424060078E7B5 /* Portrait-Nyan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-2.png"; sourceTree = "<group>"; };
+		0B1AD9AB194424060078E7B5 /* Portrait-Nyan-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-2@2x.png"; sourceTree = "<group>"; };
+		0B1AD9AC194424060078E7B5 /* Portrait-Nyan-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-3.png"; sourceTree = "<group>"; };
+		0B1AD9AD194424060078E7B5 /* Portrait-Nyan-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-3@2x.png"; sourceTree = "<group>"; };
+		0B1AD9AE194424060078E7B5 /* Portrait-Nyan-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-4.png"; sourceTree = "<group>"; };
+		0B1AD9AF194424060078E7B5 /* Portrait-Nyan-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-4@2x.png"; sourceTree = "<group>"; };
+		0B1AD9B0194424060078E7B5 /* Portrait-Nyan-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-5.png"; sourceTree = "<group>"; };
+		0B1AD9B1194424060078E7B5 /* Portrait-Nyan-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-5@2x.png"; sourceTree = "<group>"; };
+		0B1AD9B2194424060078E7B5 /* Portrait-Nyan-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-6.png"; sourceTree = "<group>"; };
+		0B1AD9B3194424060078E7B5 /* Portrait-Nyan-6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-6@2x.png"; sourceTree = "<group>"; };
+		0B1AD9B4194424060078E7B5 /* Portrait-Nyan-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-7.png"; sourceTree = "<group>"; };
+		0B1AD9B5194424060078E7B5 /* Portrait-Nyan-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-7@2x.png"; sourceTree = "<group>"; };
+		0B1AD9B6194424060078E7B5 /* Portrait-Nyan-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-8.png"; sourceTree = "<group>"; };
+		0B1AD9B7194424060078E7B5 /* Portrait-Nyan-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-8@2x.png"; sourceTree = "<group>"; };
+		0B1AD9B8194424060078E7B5 /* Portrait-Nyan-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-9.png"; sourceTree = "<group>"; };
+		0B1AD9B9194424060078E7B5 /* Portrait-Nyan-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-9@2x.png"; sourceTree = "<group>"; };
+		0B1AD9BA194424060078E7B5 /* Portrait-Nyan-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-10.png"; sourceTree = "<group>"; };
+		0B1AD9BB194424060078E7B5 /* Portrait-Nyan-10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-10@2x.png"; sourceTree = "<group>"; };
+		0B1AD9BC194424060078E7B5 /* Portrait-Nyan-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-11.png"; sourceTree = "<group>"; };
+		0B1AD9BD194424060078E7B5 /* Portrait-Nyan-11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-11@2x.png"; sourceTree = "<group>"; };
+		0B1AD9BE194424060078E7B5 /* Portrait-Nyan-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-12.png"; sourceTree = "<group>"; };
+		0B1AD9BF194424060078E7B5 /* Portrait-Nyan-12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portrait-Nyan-12@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +141,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B1AD990194423E40078E7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1AD996194423E40078E7B5 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +157,8 @@
 			children = (
 				0B1AD96B194423DB0078E7B5 /* NyanCat */,
 				0B1AD982194423DB0078E7B5 /* NyanCatTests */,
+				0B1AD997194423E40078E7B5 /* Today */,
+				0B1AD994194423E40078E7B5 /* Frameworks */,
 				0B1AD96A194423DB0078E7B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +168,7 @@
 			children = (
 				0B1AD969194423DB0078E7B5 /* NyanCat.app */,
 				0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */,
+				0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +213,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0B1AD994194423E40078E7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1AD995194423E40078E7B5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B1AD997194423E40078E7B5 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				0B1AD99A194423E40078E7B5 /* TodayViewController.h */,
+				0B1AD99B194423E40078E7B5 /* TodayViewController.m */,
+				0B1AD99D194423E40078E7B5 /* MainInterface.storyboard */,
+				0B1AD998194423E40078E7B5 /* Supporting Files */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		0B1AD998194423E40078E7B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B1AD9A8194424060078E7B5 /* Portrait-Nyan-1.png */,
+				0B1AD9A9194424060078E7B5 /* Portrait-Nyan-1@2x.png */,
+				0B1AD9AA194424060078E7B5 /* Portrait-Nyan-2.png */,
+				0B1AD9AB194424060078E7B5 /* Portrait-Nyan-2@2x.png */,
+				0B1AD9AC194424060078E7B5 /* Portrait-Nyan-3.png */,
+				0B1AD9AD194424060078E7B5 /* Portrait-Nyan-3@2x.png */,
+				0B1AD9AE194424060078E7B5 /* Portrait-Nyan-4.png */,
+				0B1AD9AF194424060078E7B5 /* Portrait-Nyan-4@2x.png */,
+				0B1AD9B0194424060078E7B5 /* Portrait-Nyan-5.png */,
+				0B1AD9B1194424060078E7B5 /* Portrait-Nyan-5@2x.png */,
+				0B1AD9B2194424060078E7B5 /* Portrait-Nyan-6.png */,
+				0B1AD9B3194424060078E7B5 /* Portrait-Nyan-6@2x.png */,
+				0B1AD9B4194424060078E7B5 /* Portrait-Nyan-7.png */,
+				0B1AD9B5194424060078E7B5 /* Portrait-Nyan-7@2x.png */,
+				0B1AD9B6194424060078E7B5 /* Portrait-Nyan-8.png */,
+				0B1AD9B7194424060078E7B5 /* Portrait-Nyan-8@2x.png */,
+				0B1AD9B8194424060078E7B5 /* Portrait-Nyan-9.png */,
+				0B1AD9B9194424060078E7B5 /* Portrait-Nyan-9@2x.png */,
+				0B1AD9BA194424060078E7B5 /* Portrait-Nyan-10.png */,
+				0B1AD9BB194424060078E7B5 /* Portrait-Nyan-10@2x.png */,
+				0B1AD9BC194424060078E7B5 /* Portrait-Nyan-11.png */,
+				0B1AD9BD194424060078E7B5 /* Portrait-Nyan-11@2x.png */,
+				0B1AD9BE194424060078E7B5 /* Portrait-Nyan-12.png */,
+				0B1AD9BF194424060078E7B5 /* Portrait-Nyan-12@2x.png */,
+				0B1AD999194423E40078E7B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,10 +274,13 @@
 				0B1AD965194423DB0078E7B5 /* Sources */,
 				0B1AD966194423DB0078E7B5 /* Frameworks */,
 				0B1AD967194423DB0078E7B5 /* Resources */,
+				0B1AD9A7194423E40078E7B5 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B1AD9A0194423E40078E7B5 /* PBXTargetDependency */,
+				0B1AD9A3194423E40078E7B5 /* PBXTargetDependency */,
 			);
 			name = NyanCat;
 			productName = NyanCat;
@@ -154,6 +305,23 @@
 			productReference = 0B1AD97F194423DB0078E7B5 /* NyanCatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0B1AD992194423E40078E7B5 /* Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1AD9A4194423E40078E7B5 /* Build configuration list for PBXNativeTarget "Today" */;
+			buildPhases = (
+				0B1AD98F194423E40078E7B5 /* Sources */,
+				0B1AD990194423E40078E7B5 /* Frameworks */,
+				0B1AD991194423E40078E7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Today;
+			productName = Today;
+			productReference = 0B1AD993194423E40078E7B5 /* ca.adambell.NyanCat.Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +337,9 @@
 					0B1AD97E194423DB0078E7B5 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 0B1AD968194423DB0078E7B5;
+					};
+					0B1AD992194423E40078E7B5 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -187,6 +358,7 @@
 			targets = (
 				0B1AD968194423DB0078E7B5 /* NyanCat */,
 				0B1AD97E194423DB0078E7B5 /* NyanCatTests */,
+				0B1AD992194423E40078E7B5 /* Today */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +377,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1AD991194423E40078E7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1AD9D4194424060078E7B5 /* Portrait-Nyan-11.png in Resources */,
+				0B1AD9CD194424060078E7B5 /* Portrait-Nyan-7@2x.png in Resources */,
+				0B1AD9C4194424060078E7B5 /* Portrait-Nyan-3.png in Resources */,
+				0B1AD9D3194424060078E7B5 /* Portrait-Nyan-10@2x.png in Resources */,
+				0B1AD9C1194424060078E7B5 /* Portrait-Nyan-1@2x.png in Resources */,
+				0B1AD9CE194424060078E7B5 /* Portrait-Nyan-8.png in Resources */,
+				0B1AD9C2194424060078E7B5 /* Portrait-Nyan-2.png in Resources */,
+				0B1AD9D2194424060078E7B5 /* Portrait-Nyan-10.png in Resources */,
+				0B1AD9C0194424060078E7B5 /* Portrait-Nyan-1.png in Resources */,
+				0B1AD9D0194424060078E7B5 /* Portrait-Nyan-9.png in Resources */,
+				0B1AD9CC194424060078E7B5 /* Portrait-Nyan-7.png in Resources */,
+				0B1AD9C3194424060078E7B5 /* Portrait-Nyan-2@2x.png in Resources */,
+				0B1AD9C9194424060078E7B5 /* Portrait-Nyan-5@2x.png in Resources */,
+				0B1AD9C5194424060078E7B5 /* Portrait-Nyan-3@2x.png in Resources */,
+				0B1AD9D7194424060078E7B5 /* Portrait-Nyan-12@2x.png in Resources */,
+				0B1AD99E194423E40078E7B5 /* MainInterface.storyboard in Resources */,
+				0B1AD9C7194424060078E7B5 /* Portrait-Nyan-4@2x.png in Resources */,
+				0B1AD9CA194424060078E7B5 /* Portrait-Nyan-6.png in Resources */,
+				0B1AD9C8194424060078E7B5 /* Portrait-Nyan-5.png in Resources */,
+				0B1AD9CB194424060078E7B5 /* Portrait-Nyan-6@2x.png in Resources */,
+				0B1AD9C6194424060078E7B5 /* Portrait-Nyan-4.png in Resources */,
+				0B1AD9CF194424060078E7B5 /* Portrait-Nyan-8@2x.png in Resources */,
+				0B1AD9D1194424060078E7B5 /* Portrait-Nyan-9@2x.png in Resources */,
+				0B1AD9D5194424060078E7B5 /* Portrait-Nyan-11@2x.png in Resources */,
+				0B1AD9D6194424060078E7B5 /* Portrait-Nyan-12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +433,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B1AD98F194423E40078E7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1AD99C194423E40078E7B5 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +448,16 @@
 			isa = PBXTargetDependency;
 			target = 0B1AD968194423DB0078E7B5 /* NyanCat */;
 			targetProxy = 0B1AD980194423DB0078E7B5 /* PBXContainerItemProxy */;
+		};
+		0B1AD9A0194423E40078E7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B1AD992194423E40078E7B5 /* Today */;
+			targetProxy = 0B1AD99F194423E40078E7B5 /* PBXContainerItemProxy */;
+		};
+		0B1AD9A3194423E40078E7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B1AD992194423E40078E7B5 /* Today */;
+			targetProxy = 0B1AD9A2194423E40078E7B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -387,6 +609,32 @@
 			};
 			name = Release;
 		};
+		0B1AD9A5194423E40078E7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "ca.adambell.NyanCat.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0B1AD9A6194423E40078E7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "ca.adambell.NyanCat.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +660,14 @@
 			buildConfigurations = (
 				0B1AD98D194423DB0078E7B5 /* Debug */,
 				0B1AD98E194423DB0078E7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B1AD9A4194423E40078E7B5 /* Build configuration list for PBXNativeTarget "Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1AD9A5194423E40078E7B5 /* Debug */,
+				0B1AD9A6194423E40078E7B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
