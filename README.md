@@ -1,6 +1,8 @@
 # NyanCat
 Puts Nyan Cat in the iOS 8 Notification Center :D
 
+![NyanCatPreview](nyancat.gif)
+
 ### Intro
 I wrote a Nyan Cat Notification Center widget for jailbroken phones a few years back, so it seemed fitting to bring it to iOS 8!
 
