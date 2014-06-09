@@ -8,12 +8,13 @@
 
 #import "TodayViewController.h"
 #import <NotificationCenter/NotificationCenter.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface TodayViewController () <NCWidgetProviding>
 
 @end
 
-@implementation TodayViewController
+@implementation TodayViewController {AVAudioPlayer *audioPlayer;}
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,7 +42,18 @@
     [self.nyanCatImageview startAnimating];
     
     self.view.clipsToBounds = NO;
-}
+    
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/nyan.mp3", [[NSBundle mainBundle] resourcePath]]];
+
+    NSError *error;
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+    audioPlayer.numberOfLoops = -1;
+    
+    if (audioPlayer == nil)
+        NSLog([error description]);
+    else
+        [audioPlayer play];} //Play Uber-Cool Nyan Song! :3
+
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler
 {

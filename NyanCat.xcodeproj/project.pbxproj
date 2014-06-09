@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024011AC19456920007D2F73 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024011AB19456920007D2F73 /* AVFoundation.framework */; };
+		024011B419456E1B007D2F73 /* nyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024011B319456E1B007D2F73 /* nyan.mp3 */; };
+		024011B519456E1B007D2F73 /* nyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024011B319456E1B007D2F73 /* nyan.mp3 */; };
 		0B1AD96F194423DB0078E7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD96E194423DB0078E7B5 /* main.m */; };
 		0B1AD972194423DB0078E7B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD971194423DB0078E7B5 /* AppDelegate.m */; };
 		0B1AD975194423DB0078E7B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1AD974194423DB0078E7B5 /* ViewController.m */; };
@@ -74,6 +77,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		024011AB19456920007D2F73 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		024011B319456E1B007D2F73 /* nyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nyan.mp3; sourceTree = "<group>"; };
 		0B1AD969194423DB0078E7B5 /* NyanCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1AD96D194423DB0078E7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B1AD96E194423DB0078E7B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024011AC19456920007D2F73 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +176,7 @@
 		0B1AD96C194423DB0078E7B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				024011B319456E1B007D2F73 /* nyan.mp3 */,
 				0B1AD96D194423DB0078E7B5 /* Info.plist */,
 				0B1AD96E194423DB0078E7B5 /* main.m */,
 			);
@@ -179,6 +186,7 @@
 		0B1AD994194423E40078E7B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				024011AB19456920007D2F73 /* AVFoundation.framework */,
 				0B1AD995194423E40078E7B5 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -308,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024011B419456E1B007D2F73 /* nyan.mp3 in Resources */,
 				0B1AD978194423DB0078E7B5 /* Main.storyboard in Resources */,
 				0B1AD97A194423DB0078E7B5 /* Images.xcassets in Resources */,
 			);
@@ -336,6 +345,7 @@
 				0B1AD9C7194424060078E7B5 /* Portrait-Nyan-4@2x.png in Resources */,
 				0B1AD9CA194424060078E7B5 /* Portrait-Nyan-6.png in Resources */,
 				0B1AD9C8194424060078E7B5 /* Portrait-Nyan-5.png in Resources */,
+				024011B519456E1B007D2F73 /* nyan.mp3 in Resources */,
 				0B1AD9CB194424060078E7B5 /* Portrait-Nyan-6@2x.png in Resources */,
 				0B1AD9C6194424060078E7B5 /* Portrait-Nyan-4.png in Resources */,
 				0B1AD9CF194424060078E7B5 /* Portrait-Nyan-8@2x.png in Resources */,

@@ -7,17 +7,18 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
             
 
 @end
 
-@implementation ViewController
+@implementation ViewController {	AVAudioPlayer *audioPlayer;
+}
             
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
