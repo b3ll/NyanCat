@@ -37,7 +37,7 @@
     }
     self.nyanCatImageview.animationImages = array;
     self.nyanCatImageview.animationDuration = 1.0;
-    self.nyanCatImageview.animationRepeatCount = INT_MAX;
+    self.nyanCatImageview.animationRepeatCount = 0;
     [self.nyanCatImageview startAnimating];
     
     self.view.clipsToBounds = NO;
